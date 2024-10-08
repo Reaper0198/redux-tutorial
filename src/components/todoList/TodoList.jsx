@@ -12,7 +12,7 @@ const TodoList = () => {
     return (
         <div className='flex-col '>
             {todoList.map((todo) => (
-                <div key={todo.id} className='flex  h-14 w-1/2  my-3 mx-auto justify-between gap-2 '>
+                <div key={todo.id} className='flex  h-14 w-full md:w-[600px] w-1/2  my-3 mx-auto justify-between gap-2 '>
                     <div className='flex flex-row gap-6 text-black bg-[#AED2FF] rounded-lg opacity-60 w-full justify-around '>
                         <p className='text-xl my-auto'>{todo.text}</p>
                     </div>

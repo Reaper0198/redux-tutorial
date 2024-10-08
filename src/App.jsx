@@ -8,7 +8,7 @@ function App() {
 
   return (
     <>
-    <div className='min-h-[600px] h-full m-10 bg-[#27005D]  p-12 text-white rounded-[28px] font-serif'>
+    <div className=' m-4 md:m-10 bg-[#27005D]   text-white rounded-[28px] font-serif'>
         <div className=' mb-6'>
             <h1 className='text-center text-4xl'>Basic Todo</h1>
         </div>
